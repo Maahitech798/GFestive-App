@@ -1,0 +1,189 @@
+:root {
+  --bg: #fff;
+  --color: #333;
+}
+[data-theme="festive"] {
+  --bg: #ffe5b4;
+  --color: #d35400;
+}
+body {
+  background: var(--bg);
+  color: var(--color);
+}
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(255,229,180,0.2);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(211,84,0,0.07);
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255,229,180,0.15);
+  /* padding: 25px; */
+  border-radius: 10px;
+  /* box-shadow: 0 2px 12px rgba(211,84,0,0.08); */
+  margin: 16px auto;
+}
+
+input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d35400;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #d35400;
+}
+
+.logout-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 14px;
+  background: #d35400;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(211, 84, 0, 0.3);
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background: #a03b00;
+}
+
+
+button {
+  background: linear-gradient(90deg, #ffe5b4 45%, #d35400 100%);
+  color: #333;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #d35400 45%, #ffe5b4 100%);
+  color: #fff;
+}
+
+/* img {
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(211,84,0,0.13);
+} */
+
+/*themeSwitcher*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ffe5b4;
+  border-radius: 34px;
+  transition: background-color 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: #d35400;
+  border-radius: 50%;
+  transition: transform 0.4s, background-color 0.4s;
+}
+.switch input:checked + .slider {
+  background-color: #d35400;
+}
+.switch input:checked + .slider:before {
+  transform: translateX(20px);
+  background-color: #ffe5b4;
+}
+
+
+/* Photo & Gallery*/
+/* .centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 30px auto;
+  background: rgba(255, 229, 180, 0.18);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(211, 84, 0, 0.08);
+} */
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+
+input[type='file'] {
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 12px 10px;
+  border: 1px solid #d35400;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 350px;
+  background: #fffbe6;
+  transition: border-color 0.3s;
+}
+
+input[type='file']:hover, input[type='file']:focus {
+  border-color: #a03b00;
+  outline: none;
+}
+
+button {
+  /* padding: 10px 22px; */
+  background: linear-gradient(90deg, #ffe5b4 45%, #d35400 100%);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 3px 15px rgba(211, 84, 0, 0.15);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #d35400 45%, #ffe5b4 100%);
+  color: #fff;
+}
