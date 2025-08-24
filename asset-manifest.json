@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GFestive-App/static/css/main.75ae53a2.css",
-    "main.js": "/GFestive-App/static/js/main.26db6ff2.js",
+    "main.css": "/GFestive-App/static/css/main.071b81dc.css",
+    "main.js": "/GFestive-App/static/js/main.922e0f77.js",
     "static/js/453.996509df.chunk.js": "/GFestive-App/static/js/453.996509df.chunk.js",
     "index.html": "/GFestive-App/index.html",
-    "main.75ae53a2.css.map": "/GFestive-App/static/css/main.75ae53a2.css.map",
-    "main.26db6ff2.js.map": "/GFestive-App/static/js/main.26db6ff2.js.map",
+    "main.071b81dc.css.map": "/GFestive-App/static/css/main.071b81dc.css.map",
+    "main.922e0f77.js.map": "/GFestive-App/static/js/main.922e0f77.js.map",
     "453.996509df.chunk.js.map": "/GFestive-App/static/js/453.996509df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75ae53a2.css",
-    "static/js/main.26db6ff2.js"
+    "static/css/main.071b81dc.css",
+    "static/js/main.922e0f77.js"
   ]
 }
