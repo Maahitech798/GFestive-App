@@ -187,3 +187,72 @@ button:hover {
   background: linear-gradient(90deg, #d35400 45%, #ffe5b4 100%);
   color: #fff;
 }
+
+
+/*ChandhaList*/
+.chandha-total-amount {
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffe5b4 65%, #d35400 100%);
+  color: #d35400;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px #ffd18c;
+}
+
+.chandha-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.chandha-form input {
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid #d35400;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.chandha-form button {
+  border-radius: 8px;
+  padding: 10px 0;
+  background: #d35400;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.chandha-card {
+  background: #fffbe6;
+  border: 2px solid #ffd18c;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  padding: 10px 16px;
+  box-shadow: 0 1px 5px #ffd18c60;
+}
+
+.chandha-card[style] {
+  border-color: #d35400 !important;
+}
+
+.chandha-btn {
+  background: #ffe5b4;
+  border: 1px solid #d35400;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 0.95rem;
+  color: #d35400;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background 0.2s;
+}
+.chandha-btn:hover {
+  background: #d35400;
+  color: #fff;
+}
