@@ -6,7 +6,7 @@ export default function SplashScreen({ onFinish }) {
     // Hide splash after 3 seconds (adjust delay as needed)
     const timer = setTimeout(() => {
       onFinish();
-    }, 3000);
+    }, 20000);
     return () => clearTimeout(timer);
   }, [onFinish]);
 

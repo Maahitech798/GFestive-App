@@ -50,7 +50,7 @@ export default function Dashboard() {
           className={activeTab === "chandha" ? "active" : ""}
           onClick={() => setActiveTab("chandha")}
         >
-          Chandha
+          Distribution/Donation
         </button>
         <button
           className={activeTab === "gallery" ? "active" : ""}
