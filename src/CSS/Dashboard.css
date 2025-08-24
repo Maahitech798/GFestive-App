@@ -1,0 +1,29 @@
+.tab-nav {
+  display: flex;
+  gap: 12px;
+  /* border-bottom: 2px solid #d35400; */
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tab-nav button {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #d35400;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.tab-nav button.active {
+  /* border-bottom: 3px solid #d35400; */
+  font-weight: 700;
+  color: #a03b00;
+}
+
+.tab-content {
+  padding: 10px 0;
+}
